@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class ="bods"lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,400;1,500&display=swap" rel="stylesheet" />
+    <title>Form Bods</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+   
+  <body>
+    <!-- navbartmulai -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">BodS<span>Indah</span>.</a>
+      <div class="navbar-nav">
+        <a href="https://docs.google.com/spreadsheets/d/1Zloi8SI10IcVq2dkDh8ElhaN3IF8rzvrYaeMfRCS3C4/edit#gid=0" id="look"><i data-feather="user-plus"></i></a>
+        <a href="https://docs.google.com/spreadsheets/d/1Zloi8SI10IcVq2dkDh8ElhaN3IF8rzvrYaeMfRCS3C4/edit#gid=359705143" id="look"><i data-feather="mail"></i></a>
+      </div>
+    </nav>
+    <!-- navbarakhir -->
+    <section id="hero1" class="hero">
+      <div id="content1" class="content">
+        <h1>If You Want to Live a Happy Life, Tie It To a Goal, Not to People or Things.</h1><p>
+          <span>Hello BodS...!!!</span> <br />
+          Please Click Button  For add Name Your Friend.
+        </p>
+        <div class="judul">
+          <link rel="stylesheet" href="">
+          <a id="btncatat" href="#" class="btn">Catat Nama Yang Ingin Kamu Undang</a>
+          <a id="btncatat1" href="#" class="btn1">Catat Tamu Yang Sudah Hadir Di Resepsi</a>
+        </div>
+      </div>
+
+      <!-- FormDaftarNamaTamu -->
+      <div id="formcatat" class="catat">
+        <div class="inputname">
+          <div id="btnclose1" class="btnclose1">
+            <a href="#" id="look"><i data-feather="x"></i></a>
+          </div>
+          <h2>Silahkan Isi Nama Teman Mu :</h2>
+        </div>
+        <form id="form1" name="nama-undangan-bods">
+          <label class="label" for="username">Masukan Nama Teman Mu :</label>
+          <input name="nama" class="iin1" type="text" id="username" required minlength="3" placeholder="Masukan Nama" />
+
+          <label class="label" for="username">Nama Pasangan Teman Mu :</label>
+          <select  id="mySelect" class="iin1" required minlength="3" name="dengan">
+            <option value="">--Please Select Couple--</option>
+            <option value="Partner">Partner</option>
+            <option value="Suami">Suami</option>
+            <option value="Istri">Istri</option>
+          </select>
+          <label class="label" for="exampleFormControlTextarea1">Alamat Teman Mu :</label>
+          <textarea name="alamat" class="iiin1 form-control" id="exampleFormControlTextarea1" rows="3"  required minlength="3" placeholder="Masukan Alamat"></textarea>
+
+          <button id="iin" class="iin tmblsumbit d-none" type="submit" value="Submit">Submit</button>
+          <div class="loaderbtn d-none">
+           <button class="iinbtn"></button>
+           <span class="loader">Loading......</span>
+        </div>
+        </form>
+      </div>
+      <!-- FormDaftarNamaTamu -->
+
+      <!-- FormDaftarAmplop start-->
+      <div id="formamplop" class="amplop">
+        <div class="inputname2">
+          <div id="btnclose2" class="btnclose2">
+            <a href="#" id="look"><i data-feather="x"></i></a>
+          </div>
+          <h2>Silahkan Isi Data Amplop Yang Anda Terima :</h2>
+        </div>
+        <form name="nama-kondangan"id="form2" >
+          <label class="label2" for="username">Masukan Nama Teman Mu :</label>
+          <input name="namateman" class="iin2" type="text" id="username" required minlength="3"  placeholder="Masukan Nama">
+
+          <label class="label2"  for="amount">Masukan Nominal Amplop Yang Anda Terima</label>
+          <input name="nominal" class="iin2" type="text" id="amount" name="amount"  placeholder="Rp Masukan Nominal" required>
+       
+          <label class="label2" for="exampleFormControlTextarea1">Alamat Teman Mu :</label>
+          <textarea name="tempattinggal" class="iiin2 form-control" id="exampleFormControlTextarea1" rows="3" name="pesan" required minlength="3" placeholder="Masukan Alamat"></textarea>
+
+          <button id="iins" class="iins tmblsumbit d-none" type="submit" value="Submit" >Submit</button>
+          <div id="loaderbtn2" class="loaderbtn2 d-none">
+           <button class="iinbtn2"></button>
+           <span class="loader2">Loading......</span>
+         </div>
+        </form>
+      </div>
+      
+      <!-- FormDaftarAmplop end-->
+    </section>
+    <footer >
+      <div class="footer">
+        <p>Designed and Built Powered <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill="currentColor" class="bi bi-c-square-fill" viewBox="0 0 16 16">
+        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm6.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+        </svg></i> by <a href="https://wa.me/6287775256669/" class="text-white fw-bold">Chairul Ichwan.</a> Copyright 2023 All Rigth Reserved</p>
+    </div>  
+    </footer>
+  
+    
+    <script>
+      feather.replace();
+    </script>
+    
+<script src="js/sweetalert2.all.min.js"></script>
+    <!-- scriptscontens.js -->
+    <script src="js/scriptscontents.js"></script>
+  </body>
+</html>
